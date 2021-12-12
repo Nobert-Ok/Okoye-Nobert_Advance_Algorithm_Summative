@@ -6,7 +6,7 @@ original_grade = [73,38,67,33]
 
 # creating a function to take in the list of grades
 # of the students
-def get_final_grade(arr):
+def gradingStudents(grade):
     # initializing a list where the rounded grades
     # will be stored
     final_grade = []
@@ -39,4 +39,4 @@ def get_final_grade(arr):
     return final_grade
 
 print("The original grades are: "+ str(original_grade))
-print("The rounded  grades are: "+ str(get_final_grade(original_grade)))
+print("The rounded  grades are: "+ str(gradingStudents(original_grade)))
